@@ -31,7 +31,7 @@ churrascos propostos pela empresa, com data, nome e observações adicionais.
 - :purple_heart: &nbsp;**[styled-components](https://styled-components.com/)** — Biblioteca para estilização de componentes React.
 - :yellow_heart: &nbsp; Prettier, ESlint - Tecnologias para padronização de código;
 - :blue_heart: &nbsp; [TypeScript](https://www.typescriptlang.org/) - Tecnologia para tipagem e melhoria de arquitetura JavaScript.
-- :red_heart: &nbsp; [json-server](https://github.com/typicode/json-server) - Tecnologia para a criação de uma API REST fake.
+- :heart: &nbsp; [json-server](https://github.com/typicode/json-server) - Tecnologia para a criação de uma API REST fake.
 
 ## Funcionamento
 
@@ -77,8 +77,8 @@ Para análise de código, este repositório foi criado utilizando a arquitetura 
 
 Para análise e ver funcionando diretamente na máquina local:
 
-1. Clone este repositório utilizando o comando <code> git clone https://github.com/LuccasPiola/teste-chatfood.git </code>
-2. Entre na pasta clonada utilizando <code>cd teste-chatfood</code>
+1. Clone este repositório utilizando o comando <code>git clone https://github.com/LuccasPiola/churras-trinca.git</code>
+2. Entre na pasta clonada utilizando <code>cd churras-trinca</code>
 3. Rode o comando <code>npm i</code> no terminal, para a instalação das dependências <br />
    &nbsp; &nbsp; 3.1 Versão utilizada do Node: **18.17.1** <br />
 4. Rode o comando <code>npm run trinca</code> no terminal. Isso fará um build da aplicação e disponibilizará uma versão otimizada em <code>http://localhost:3000</code>, além de rodar
@@ -86,4 +86,4 @@ Para análise e ver funcionando diretamente na máquina local:
 
 ---
 
-This test was made by Trinca. Repository by Luccas Piola. ♥ &nbsp; for JavaScript.
+This test was made by Trinca. Repository by Luccas Piola. ♥ &nbsp;for JavaScript.
