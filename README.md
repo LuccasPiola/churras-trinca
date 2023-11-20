@@ -66,6 +66,12 @@ como paga.
 
 ## Ver funcionando
 
+Um vídeo simples do funcionamento da aplicação:
+
+<h1 align="center">
+  <video src="github_assets/funcionamento.mov" width="400" />
+</h1>
+
 Para análise de código, este repositório foi criado utilizando a arquitetura de componentização. Sobre a arquitetura de pastas:
 
 - _components_ - Componentes reutilizáveis da aplicação.
