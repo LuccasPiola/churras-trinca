@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "db": "json-server --watch db.json --port 3004",
-    "trinca": "next dev & npm run db"
+    "trinca": "next build && next start & npm run db"
   },
   "dependencies": {
     "json-server": "^0.17.4",
