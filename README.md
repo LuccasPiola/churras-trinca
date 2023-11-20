@@ -60,10 +60,6 @@ e adicionar contribuições, digitando o nome da pessoa e o valor.
 Em relação a contribuições, é possivel adicionar, remover e declarar uma contribuição
 como paga.
 
-<h1 align="center">
-  <img alt="Criar Churrascos" title="Criar Churrascos" src="github_assets/churrasco.png" width="700px" />
-</h1>
-
 ## Ver funcionando
 
 Um vídeo simples do funcionamento da aplicação:
