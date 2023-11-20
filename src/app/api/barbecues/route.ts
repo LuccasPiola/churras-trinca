@@ -16,10 +16,6 @@ export async function GET(request: Request) {
     throw new Error('Failed to fetch barbecues');
   }
 
-  if (apiResponse.status === 404) {
-    throw new Error('No barbecue found');
-  }
-
   const count = apiResponse.headers.get('X-Total-Count');
   const barbecues: BarbecueAPI[] = await apiResponse.json();
 

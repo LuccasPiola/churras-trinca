@@ -19,6 +19,10 @@ export async function GET(_: Request, { params }: GET_ONE_BARBECUE_PARAMS) {
     throw new Error('Failed to fetch barbecue ' + barbecueId);
   }
 
+  if (apiResponse.status === 404) {
+    throw new Error('No barbecue found');
+  }
+
   const barbecue: BarbecueAPI = await apiResponse.json();
 
   return Response.json(barbecue);
