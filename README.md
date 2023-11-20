@@ -68,9 +68,9 @@ como paga.
 
 Um vídeo simples do funcionamento da aplicação:
 
-<h1 align="center">
-  <video src="github_assets/funcionamento.mov" width="400" />
-</h1>
+<video width="800" height="600" controls>
+  <source src="github_assets/funcionamento.mov" type="video/mp4">
+</video>
 
 Para análise de código, este repositório foi criado utilizando a arquitetura de componentização. Sobre a arquitetura de pastas:
 
