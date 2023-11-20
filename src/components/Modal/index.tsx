@@ -3,7 +3,7 @@
 import { type SubmitHandler, useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import ReactModal from 'react-modal';
-import { createOneBarbecue } from '@/lib/barbecue';
+import { createOneBarbecue } from '@/lib/barbecues';
 import Typography from '@/components/Typography';
 import * as S from './styles';
 import useModalState from './hooks';
