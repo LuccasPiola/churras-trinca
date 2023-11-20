@@ -1,19 +1,4 @@
 {
-  "barbecues": [
-    {
-      "date": 1700524800000,
-      "info": "dasdsadas",
-      "name": "Motivo",
-      "id": 1
-    }
-  ],
-  "contributions": [
-    {
-      "personName": "Luccas Piola",
-      "value": 40,
-      "alreadyPaid": false,
-      "barbecueId": 1,
-      "id": 1
-    }
-  ]
+  "barbecues": [],
+  "contributions": []
 }

@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="Chatfood" title="Chatfood" src="github_assets/logo.png" width="300px" />
+</h1>
 
-## Getting Started
+<h3 align="center">
+  Teste para a Trinca utilizando React + Next + Typescript
+</h3>
 
-First, run the development server:
+<p align="center">Repostório dedicado para realizar o teste proposto pela Trinca, utilizando Next.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<blockquote align="center">“Programs must be written for people to read, and only incidentally for machines to execute.” ― Harold Abelson</blockquote>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <a href="#sobre-o-teste">Sobre o teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionamento">Funcionamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ver-funcionando">Ver funcionando</a>
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Sobre o teste
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Esse é o teste proposto pela [Trinca](https://trin.ca/), com o intuito de analisar
+e contratar um Engenheiro de Software Front-end.
 
-## Learn More
+O teste consistia no desenvolvimento de uma aplicação onde fosse possível cadastrar
+churrascos propostos pela empresa, com data, nome e observações adicionais.
 
-To learn more about Next.js, take a look at the following resources:
+### **Tecnologias utilizadas para o teste**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- :green_heart: &nbsp;**[NextJS](https://nextjs.org/)** — Framework React para renderização
+  de componentes no lado do servidor.
+- :purple_heart: &nbsp;**[styled-components](https://styled-components.com/)** — Biblioteca para estilização de componentes React.
+- :yellow_heart: &nbsp; Prettier, ESlint - Tecnologias para padronização de código;
+- :blue_heart: &nbsp; [TypeScript](https://www.typescriptlang.org/) - Tecnologia para tipagem e melhoria de arquitetura JavaScript.
+- :red_heart: &nbsp; [json-server](https://github.com/typicode/json-server) - Tecnologia para a criação de uma API REST fake.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Funcionamento
 
-## Deploy on Vercel
+Em primeira instância, possuímos uma tela de login, mas não há uma integração
+com nenhuma forma de autenticação. Apenas um e-mail válido e uma senha com 6
+dígitos é suficiente para logar.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h1 align="center">
+  <img alt="Login" title="Login" src="github_assets/login.png" width="700px" />
+</h1>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Após o login, somos apresentados com uma tela que faz a listagem dos churrascos
+cadastrados, tão quanto possibilita a criação de novos.
+
+<h1 align="center">
+  <img alt="Churrascos" title="Churrascos" src="github_assets/churrascos.png" width="700px" />
+</h1>
+
+<h1 align="center">
+  <img alt="Criar Churrascos" title="Criar Churrascos" src="github_assets/modal.png" width="700px" />
+</h1>
+
+Além disso, podemos entrar na página específica do churrasco para ver mais detalhes
+e adicionar contribuições, digitando o nome da pessoa e o valor.
+
+Em relação a contribuições, é possivel adicionar, remover e declarar uma contribuição
+como paga.
+
+<h1 align="center">
+  <img alt="Criar Churrascos" title="Criar Churrascos" src="github_assets/churrasco.png" width="700px" />
+</h1>
+
+## Ver funcionando
+
+Para análise de código, este repositório foi criado utilizando a arquitetura de componentização. Sobre a arquitetura de pastas:
+
+- _components_ - Componentes reutilizáveis da aplicação.
+- _lib_ - Funções assíncronas para chamada dos Route Handlers do NextJS.
+- _types_ - Tipagens globais da aplicação.
+- _utils_ - Funções reutilizáveis.
+- _app_ - Páginas e componentes relacionadas ao NextJS.
+- _db.json_ - Banco de dados fake utilizado pelo json-server.
+
+Para análise e ver funcionando diretamente na máquina local:
+
+1. Clone este repositório utilizando o comando <code> git clone https://github.com/LuccasPiola/teste-chatfood.git </code>
+2. Entre na pasta clonada utilizando <code>cd teste-chatfood</code>
+3. Rode o comando <code>npm i</code> no terminal, para a instalação das dependências <br />
+   &nbsp; &nbsp; 3.1 Versão utilizada do Node: **18.17.1** <br />
+4. Rode o comando <code>npm run trinca</code> no terminal. Isso fará um build da aplicação e disponibilizará uma versão otimizada em <code>http://localhost:3000</code>, além de rodar
+   a API na porta 3004.
+
+---
+
+This test was made by Trinca. Repository by Luccas Piola. ♥ &nbsp; for JavaScript.
