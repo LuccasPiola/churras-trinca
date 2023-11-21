@@ -27,6 +27,7 @@ export default function Login() {
           placeholder="senha"
           type="password"
           minLength={6}
+          required
         />
         <S.LoginButton type="submit">Entrar</S.LoginButton>
       </form>
