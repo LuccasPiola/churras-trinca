@@ -1,9 +1,16 @@
 import { useEffect, useState } from 'react';
 
+const isSmallScreen = () => {
+  if (typeof window !== 'undefined') {
+    return window.innerWidth < 900;
+  }
+  return false;
+};
+
 const styles: ReactModal.Styles = {
   content: {
-    width: '35%',
-    height: '600px',
+    width: isSmallScreen() ? '80%' : '35%',
+    height: isSmallScreen() ? '400px' : '600px',
     border: 0,
     borderRadius: '5px',
     margin: 'auto',

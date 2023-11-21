@@ -127,13 +127,19 @@ const ResetStyles = createGlobalStyle`
     border-spacing: 0;
   }
   * {
-    font-size: 8px;
     transition: all ease-in 0.25s;
   }
   body,
   html {
     height: 100%;
     overflow: hidden;
+
+    font-size: 16px;
+
+
+    @media screen and (max-width: 900px) {
+      font-size: 10px;
+    }
   }
 `;
 

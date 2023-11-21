@@ -10,12 +10,20 @@ export const Wrapper = styled.div`
   height: 200px;
   cursor: pointer;
 
+  @media screen and (max-width: 900px) {
+    height: 100px;
+  }
+
   h2 {
     margin-bottom: 1rem;
   }
 
   h3 {
     margin-bottom: 5rem;
+
+    @media screen and (max-width: 900px) {
+      margin-bottom: 2rem;
+    }
   }
 
   &:hover {

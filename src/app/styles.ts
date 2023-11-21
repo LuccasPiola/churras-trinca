@@ -23,6 +23,10 @@ export const LoginWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 15rem;
+  }
 `;
 
 export const LoginButton = styled.button`

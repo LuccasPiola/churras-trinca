@@ -26,6 +26,11 @@ export const Checkbox = styled.input`
   outline: none;
   cursor: pointer;
 
+  @media screen and (max-width: 900px) {
+    width: 15px;
+    height: 15px;
+  }
+
   &:checked {
     background-color: ${({ theme }) => theme.primary};
     border-color: ${({ theme }) => theme.primary};
@@ -48,6 +53,11 @@ export const DeleteButton = styled.button`
   top: 50%;
   transform: translateY(-55%);
   right: -28px;
+
+  @media screen and (max-width: 900px) {
+    right: -18px;
+    font-size: 1.1rem;
+  }
 
   display: flex;
   justify-content: center;

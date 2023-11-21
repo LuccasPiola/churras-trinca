@@ -77,6 +77,10 @@ export const TextArea = styled.textarea`
   margin-top: 0.5rem;
   border-radius: 5px;
 
+  @media screen and (max-width: 900px) {
+    height: 140px;
+  }
+
   &:focus,
   &:not(:placeholder-shown) {
     border-color: ${({ theme }) => theme.primary};
@@ -98,6 +102,10 @@ export const AddButtonIcon = styled.div`
   align-items: center;
   flex-direction: column;
 
+  @media screen and (max-width: 900px) {
+    right: 40px;
+  }
+
   h4 {
     margin-top: 0.5rem;
   }
@@ -115,12 +123,13 @@ export const AddButton = styled.button`
   border: 0;
   cursor: pointer;
 
+  @media screen and (max-width: 900px) {
+    width: 80px;
+    height: 80px;
+  }
+
   &:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-  }
-
-  svg {
-    color: green;
   }
 `;

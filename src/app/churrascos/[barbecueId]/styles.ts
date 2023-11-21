@@ -20,6 +20,10 @@ export const BarbecueDetails = styled.section`
   background-color: white;
   border-radius: 2px;
   box-shadow: -10px 13px 16px 0px rgba(0, 0, 0, 0.06);
+
+  @media screen and (max-width: 900px) {
+    width: 80%;
+  }
 `;
 
 export const BarbecueMainInformation = styled.div`
@@ -35,6 +39,10 @@ export const BarbecueMainInformation = styled.div`
   > div > h4 {
     width: 35rem;
     height: 70px;
+
+    @media screen and (max-width: 900px) {
+      width: 15rem;
+    }
   }
 
   > div > div:first-child {
@@ -53,6 +61,11 @@ export const AddContributionForm = styled.form`
   grid-template-columns: 3.2% 84% 10%;
   padding: 1rem 0.1rem;
   grid-column-gap: 12px;
+  align-items: center;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 3.2% 75% 14%;
+  }
 
   input {
     -moz-appearance: textfield;
@@ -98,6 +111,13 @@ export const AddContributionButton = styled.button`
   top: 22px;
   left: 3px;
   cursor: pointer;
+
+  @media screen and (max-width: 900px) {
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 3px;
+  }
 
   &:disabled {
     background-color: #ccc;

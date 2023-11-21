@@ -13,6 +13,13 @@ export const Barbecues = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+    height: auto;
+    width: 100%;
+  }
+
   position: relative;
   top: -40px;
 
@@ -38,6 +45,11 @@ export const ArrowButton = styled.button<{ $isLeft?: boolean }>`
   transform: translateY(-50%);
   left: ${(props) => (props.$isLeft ? '-70px' : 'initial')};
   right: ${(props) => (props.$isLeft ? 'initial' : '-70px')};
+
+  @media screen and (max-width: 900px) {
+    top: 84vh;
+    left: ${(props) => (props.$isLeft ? '50px' : '100px')};
+  }
 
   cursor: pointer;
   user-select: none;
