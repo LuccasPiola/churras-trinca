@@ -68,6 +68,8 @@ como paga.
 
 Um vídeo simples do funcionamento da aplicação:
 
+https://github.com/LuccasPiola/churras-trinca/assets/37879484/430f5df5-c281-4215-8e7c-c5ba9aed6b97
+
 Para análise de código, este repositório foi criado utilizando a arquitetura de componentização. Sobre a arquitetura de pastas:
 
 - _components_ - Componentes reutilizáveis da aplicação.
